@@ -1,0 +1,249 @@
+#mainT {
+	text-align: center;
+	font-size: 40px;
+	padding: 5px;
+}
+
+body {
+	margin:0;
+}
+
+header {
+  background-color: #ff5050;
+  overflow: hidden;
+  top: 0;
+  width: 100%;
+}
+
+h2 {
+	text-align: center;
+	font-size: 35px;
+}
+
+footer {
+	text-align: center;
+	font-size: 15px;
+	text-decoration-style: bold;
+	padding: 3px;
+}
+
+#GamesContainer {
+	text-align: center;
+}
+
+.Games img {
+	display: inline-block;
+	width: 15%;
+	margin: 3%;
+	border-radius: 5px;
+	height: 300px;
+}
+
+.PageDiscription {
+	text-align: center;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 20px; 
+	text-align: justify;
+}
+
+.FavNbuy {
+	padding: 5px; 
+	margin: 20px;
+	width: 125px;
+	background-color: #ff5050; 
+    border: 2px black solid; 
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+.FavNbuy:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.line {
+	border-color: black;
+	padding: 0px;
+	margin: 0px;
+}
+
+#navcontainer ul {
+	margin: 10px;
+	padding: 0;
+	list-style-type: none;
+	text-align: center;
+}
+
+#navcontainer ul li { 
+	display: inline;
+	width: 30%; 
+}
+
+#navcontainer ul li a {
+	text-decoration: none;
+	padding: .2em 1em;
+	color: black;
+	background-color: #ff5050;
+	font-size: 22px;
+}
+
+#navcontainer ul li a:hover {
+	color: #fff;
+	background-color: black;
+}
+
+#slideContainer {
+	text-align: center;
+	padding: 10px;
+}
+
+#ProfileContainer{
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+#ProfilePic {
+	text-align: center;
+	display: inline-block;
+	vertical-align: top;
+	padding: 10px;
+	margin-right: 25px;
+}
+
+#ProfilePic img{
+	height: 300px;
+	width: 300px;
+}
+
+#information{
+	text-align: center;
+	display: inline-block;
+	vertical-align: top;
+	padding: 10px;
+	margin-left: 25px;
+}
+
+#textWithIMG {
+	margin: 10px;
+}
+#textWithIMG p {
+	display: inline-block;
+	vertical-align: top;
+	width: 65%;
+}
+#textWithIMG div {
+	display: inline-block;
+	vertical-align: top;
+	width: 65%;
+}
+#textWithIMG img {
+	margin: 10px;
+	display: inline-block;
+	width: 30%;
+	height: 200px;
+	border-width:5px;  
+    border-style:double;
+}
+
+strong {
+	font-size: 20px;
+}
+
+#username {
+	text-align: center;
+	font-size: 20px;
+	text-decoration: underline;
+}
+
+table{
+    width: 50%;
+    margin: 30px auto;
+    border-collapse: collapse;
+    text-align: left;
+}
+tr {
+    border-bottom: 1px solid #cbcbcb;
+}
+th, td{
+    border: none;
+    height: 30px;
+    padding: 2px;
+    width: 10%;
+}
+
+form {
+    width: 40%;
+    margin: 50px auto;
+    text-align: left;
+    padding: 20px; 
+    border: 1px solid #bbbbbb; 
+    border-radius: 5px;
+}
+
+.input-group {
+    margin: 10px 0px 10px 0px;
+}
+.input-group label {
+    display: block;
+    text-align: left;
+    margin: 3px;
+}
+.input-group input {
+    height: 30px;
+    width: 93%;
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+.btn {
+    padding: 10px;
+    font-size: 15px;
+    color: white;
+    background:  #ff5050;
+    border: none;
+    border-radius: 5px;
+}
+.edit_btn {
+    text-decoration: none;
+    padding: 2px 5px;
+    background: #2E8B57;
+    color: white;
+    border-radius: 3px;
+}
+
+.del_btn {
+    text-decoration: none;
+    padding: 2px 5px;
+    color: white;
+    border-radius: 3px;
+    background: #800000;
+}
+.output {
+    margin: 30px auto; 
+    padding: 10px; 
+    border-radius: 5px; 
+    color: #3c763d; 
+    background: #dff0d8; 
+    border: 1px solid #3c763d;
+    width: 50%;
+    text-align: center;
+}
+
+#resultContainer {
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+}
+.results {
+	text-align: center;
+}
+
